@@ -1,0 +1,5 @@
+original_image = getTitle();
+run("RGB Color");
+run("Split Channels");
+selectWindow(original_image + " (green)");
+run("Measure");
